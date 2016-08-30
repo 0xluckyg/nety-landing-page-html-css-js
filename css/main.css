@@ -34,6 +34,7 @@ textarea {
 
 body {
     font-size: 1em;
+    font-family: Raleway;    
     line-height: 1.4;
 }
 
@@ -168,8 +169,8 @@ main {
 	top: 50%;
 }
 	.hsContent h2  {
-		color: #fff8de;
-		background-color: rgba(255,255,255,0.0);        
+		color: #f9f1d3;
+		background-color: rgba(0,0,0,0.5);        
 		padding: 10px 5px;
 		font-size: 55px;
         font-weight: 200;        
@@ -185,11 +186,97 @@ main {
 		text-decoration: underline;
 	}
 
+
+/*navBar*/
+.navBarDiv {
+    position: fixed;
+    z-index: 3;
+
+    width: 100%;
+    height: 51px;    
+    border-bottom: 2.5px solid rgba(73, 101, 146, 1);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navigationBar {
+    overflow: hidden;
+    z-index: 3;
+    position: fixed;
+
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+
+    list-style-type: none;
+    font-size: 13px;
+    background-color: white;
+}
+
+li .navTag {
+    float: left;
+    display: block;
+
+    padding: 18px 16px;
+
+    color: rgba(73, 101, 146, 1);
+    text-align: center;
+    text-decoration: none;
+
+    transition: background-color .3s, color .26s;
+    -webkit-transition: background-color .3s, color .26s;
+}
+
+/* Change the link color to #111 (black) on hover */
+li .navTag:hover {
+    background-color: rgba(200, 200, 200, 0.2);
+}
+
+.right {
+    float: right;
+}
+
+.brand {
+    display: block;
+    float: left;
+    text-align: center;
+
+    padding: 18px 16px;
+    margin-left: 30px;
+
+    color: rgba(73, 101, 146, 1);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.signup {
+    margin-right: 30px;
+}
+
+.active {
+    background-color: rgba(200, 200, 200, 1);
+}
+
+
+
+
 /* Slide 1 */
 #slide-1 .bcg {background-image:url('../img/backgroundImage1.jpg')}
 #slide-1 .hsContent {
-	bottom: 200px;
+	max-width: 1500px;
+    max-height: 700px;
+    margin-left: -300px;
+    bottom: 200px;
 	top: auto;
+}
+#slide-1 h2 {
+    font-size: 40px;
+    background-color: rgba(0,0,0,0.0);        
+}
+#slide-1 .appName {
+    font-weight: 600;
+    font-size: 200px;
 }
 
 /* Slide 2 */
@@ -200,7 +287,17 @@ main {
 }
 #slide-2 h2 {
 	position: fixed;
-	top: 70%;
+	top: 25%;
+    line-height: 1;
+}
+#slide-2 .networkingEvent {
+    font-size: 100px;
+    font-weight: 500;
+}
+
+#slide-2 .who {
+    font-size: 100px;
+    font-weight: 500;
 }
 
 /* Slide 3 */
@@ -211,41 +308,80 @@ main {
 }
 #slide-3 h2 {
     position: fixed;
-    top: 70%;
+    top: 25%;
+    line-height: 1;
 }
+#slide-3 .search {
+    font-size: 100px;
+    font-weight: 500;
+}
+#slide-3 .party {
+    font-size: 100px;
+    font-weight: 500;
+}
+
 
 /* Slide 4 */
 #slide-4 .bcg {background-image:url('../img/backgroundImage4.jpg')}
 #slide-4 .hsContent {
-    margin-left: -450px;
+    margin-left: -500px;
     top: auto;
 }
 #slide-4 h2 {
     position: fixed;
-    top: 70%;
+    top: 15%;
+    line-height: 1;
+}
+#slide-4 .where {
+    font-size: 100px;
+    font-weight: 500;
+}
+#slide-4 .who {
+    font-size: 100px;
+    font-weight: 500;    
+}
+#slide-4 .fullControl {
+    font-size: 100px;
+    font-weight: 500;    
 }
 
 /* Slide 5 */
 #slide-5 .bcg {background-image:url('../img/backgroundImage5.jpg')}
 #slide-5 .hsContent {
-    margin-left: -450px;
+    margin-left: -500px;
     top: auto;
 }
 #slide-5 h2 {
     position: fixed;
-    top: 70%;
+    top: 40%;
+    line-height: 1;
+
+}
+#slide-5 .search {
+    font-size: 100px;
+    font-weight: 500; 
 }
 
 /* Slide 6 */
 #slide-6 .bcg {background-image:url('../img/backgroundImage6.jpg')}
 #slide-6 .hsContent {
-    margin-left: -239px;
+    margin-left: -500px;
 }
 #slide-6 h2 {
-    color: #f2ead6;
-    background-color: rgba(0,0,0,0.6);
+    line-height: 1;
+    top: 40%;
+}
+#slide-6 .connect {
+    font-size: 100px;
+    font-weight: 500; 
 }
 
+/*footer*/
+#footer .footerDiv {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(73, 101, 146, 1);
+} 
 
 
 /* ==========================================================================

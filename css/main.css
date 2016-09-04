@@ -1,24 +1,212 @@
-/* 
- _____   _           _         _                        _                  
-|_   _| | |         | |       | |                      | |                 
-  | |   | |__   __ _| |_ ___  | |_ ___  _ __ ___   __ _| |_ ___   ___  ___ 
-  | |   | '_ \ / _` | __/ _ \ | __/ _ \| '_ ` _ \ / _` | __/ _ \ / _ \/ __|
- _| |_  | | | | (_| | ||  __/ | || (_) | | | | | | (_| | || (_) |  __/\__ \
- \___/  |_| |_|\__,_|\__\___|  \__\___/|_| |_| |_|\__,_|\__\___/ \___||___/
 
-Oh nice, welcome to the stylesheet of dreams. 
-It has it all. Classes, ID's, comments...the whole lot:)
-Enjoy responsibly!
-@ihatetomatoes
+/* ==========================================================================
+   Main styles: opinionated defaults
+   ========================================================================== */
 
-*/
-/*
- * HTML5 Boilerplate
- *
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
+/* Slide 1 */
+#slide-1 .bcg {background-image:url('../img/backgroundImage1.jpg')}
+#slide-1 .hsContent {
+    max-width: 1500px;
+    max-height: 700px;
+    margin-left: -300px;
+    bottom: 200px;
+    top: auto;
+}
+#slide-1 h2 {
+    font-size: 40px;
+    background-color: rgba(0,0,0,0.0);        
+}
+#slide-1 .appName {
+    font-weight: 600;
+    font-size: 200px;
+}
+
+/* Slide 2 */
+#slide-2 .bcg {background-image:url('../img/backgroundImage2.jpg')}
+#slide-2 .hsContent {
+    margin-left: -450px;
+    top: auto;
+}
+#slide-2 h2 {
+    position: fixed;
+    top: 25%;
+    line-height: 1;
+}
+#slide-2 .networkingEvent {
+    font-size: 100px;
+    font-weight: 500;
+}
+
+#slide-2 .who {
+    font-size: 100px;
+    font-weight: 500;
+}
+
+/* Slide 3 */
+#slide-3 .bcg {background-image:url('../img/backgroundImage3.jpg')}
+#slide-3 .hsContent {
+    margin-left: -450px;
+    top: auto;
+}
+#slide-3 h2 {
+    position: fixed;
+    top: 25%;
+    line-height: 1;
+}
+#slide-3 .search {
+    font-size: 100px;
+    font-weight: 500;
+}
+#slide-3 .party {
+    font-size: 100px;
+    font-weight: 500;
+}
+
+
+/* Slide 4 */
+#slide-4 .bcg {background-image:url('../img/backgroundImage4.jpg')}
+#slide-4 .hsContent {
+    margin-left: -500px;
+    top: auto;
+}
+#slide-4 h2 {
+    position: fixed;
+    top: 15%;
+    line-height: 1;
+}
+#slide-4 .where {
+    font-size: 100px;
+    font-weight: 500;
+}
+#slide-4 .who {
+    font-size: 100px;
+    font-weight: 500;    
+}
+#slide-4 .fullControl {
+    font-size: 100px;
+    font-weight: 500;    
+}
+
+/* Slide 5 */
+#slide-5 .bcg {background-image:url('../img/backgroundImage5.jpg')}
+#slide-5 .hsContent {
+    margin-left: -500px;
+    top: auto;
+}
+#slide-5 h2 {
+    position: fixed;
+    top: 40%;
+    line-height: 1;
+
+}
+#slide-5 .search {
+    font-size: 100px;
+    font-weight: 500; 
+}
+
+/* Slide 6 */
+#slide-6 .bcg {background-image:url('../img/backgroundImage6.jpg')}
+#slide-6 .hsContent {
+    margin-left: -500px;
+}
+#slide-6 h2 {
+    line-height: 1;
+    top: 40%;
+}
+#slide-6 .connect {
+    font-size: 100px;
+    font-weight: 500; 
+}
+
+/*Terms*/
+.termsDiv {
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.termsH2 {
+    font-weight: 500;
+    color: rgba(73, 101, 146, 1);
+}
+
+
+
+
+/*footer*/
+#footer .footerDiv {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(73, 101, 146, 1);
+} 
+
+
+.footerAbout {
+    width: 100%;
+    height: 280px;
+}
+
+.footerAboutDiv1 {
+    float: left;
+    width: 25%;
+    height: 100%;
+
+    background: rgba(73, 101, 146, 1);
+}
+
+.footerAboutDiv2 {
+    float: left;
+    width: 25%;
+    height: 100%;
+
+    background: rgba(73, 101, 146, 1);
+}
+
+.footerAboutDiv3 {
+    float: left;
+    width: 25%;
+    height: 100%;
+
+    background: rgba(73, 101, 146, 1);
+}
+
+.footerAboutDiv4 {
+    float: left;
+    width: 25%;
+    height: 100%;
+
+    background: rgba(73, 101, 146, 1);
+}
+
+.footerH2 {
+    padding-top: 40px;
+    text-align: center;
+
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+}
+
+.footerP {
+    text-align: center;
+
+    font-weight: 200;
+    color: white;
+}
+
+.footerPA {
+    display: block;
+    text-align: center;
+
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -110,7 +298,7 @@ textarea {
 body, html {
 	height: 100%;
 	min-height: 100%;
-	background-color: #000000;
+	/*background-color: white;*/
 }
 body {
 	
@@ -138,21 +326,26 @@ section {
 main {
 	overflow-x: hidden;
 }
+
 #preload {
 	width: 1px;
 	height: 1px;
 	overflow: hidden;
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 0;    
 }
 .bcg {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+    position: relative;    
+
 	height: 100%;
 	width: 100%;
+    z-index: -3;
+
 }
 
 .hsContainer {
@@ -160,11 +353,13 @@ main {
 	height: 100%;
 	overflow: hidden;
 	position: relative;
+    z-index: -2;
 }
 
 .hsContent {
 	max-width: 700px;
 	position: absolute;
+    z-index: -1;
 	left: 50%;
 	top: 50%;
 }
@@ -257,131 +452,6 @@ li .navTag:hover {
 .active {
     background-color: rgba(200, 200, 200, 1);
 }
-
-
-
-
-/* Slide 1 */
-#slide-1 .bcg {background-image:url('../img/backgroundImage1.jpg')}
-#slide-1 .hsContent {
-	max-width: 1500px;
-    max-height: 700px;
-    margin-left: -300px;
-    bottom: 200px;
-	top: auto;
-}
-#slide-1 h2 {
-    font-size: 40px;
-    background-color: rgba(0,0,0,0.0);        
-}
-#slide-1 .appName {
-    font-weight: 600;
-    font-size: 200px;
-}
-
-/* Slide 2 */
-#slide-2 .bcg {background-image:url('../img/backgroundImage2.jpg')}
-#slide-2 .hsContent {
-	margin-left: -450px;
-	top: auto;
-}
-#slide-2 h2 {
-	position: fixed;
-	top: 25%;
-    line-height: 1;
-}
-#slide-2 .networkingEvent {
-    font-size: 100px;
-    font-weight: 500;
-}
-
-#slide-2 .who {
-    font-size: 100px;
-    font-weight: 500;
-}
-
-/* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/backgroundImage3.jpg')}
-#slide-3 .hsContent {
-    margin-left: -450px;
-    top: auto;
-}
-#slide-3 h2 {
-    position: fixed;
-    top: 25%;
-    line-height: 1;
-}
-#slide-3 .search {
-    font-size: 100px;
-    font-weight: 500;
-}
-#slide-3 .party {
-    font-size: 100px;
-    font-weight: 500;
-}
-
-
-/* Slide 4 */
-#slide-4 .bcg {background-image:url('../img/backgroundImage4.jpg')}
-#slide-4 .hsContent {
-    margin-left: -500px;
-    top: auto;
-}
-#slide-4 h2 {
-    position: fixed;
-    top: 15%;
-    line-height: 1;
-}
-#slide-4 .where {
-    font-size: 100px;
-    font-weight: 500;
-}
-#slide-4 .who {
-    font-size: 100px;
-    font-weight: 500;    
-}
-#slide-4 .fullControl {
-    font-size: 100px;
-    font-weight: 500;    
-}
-
-/* Slide 5 */
-#slide-5 .bcg {background-image:url('../img/backgroundImage5.jpg')}
-#slide-5 .hsContent {
-    margin-left: -500px;
-    top: auto;
-}
-#slide-5 h2 {
-    position: fixed;
-    top: 40%;
-    line-height: 1;
-
-}
-#slide-5 .search {
-    font-size: 100px;
-    font-weight: 500; 
-}
-
-/* Slide 6 */
-#slide-6 .bcg {background-image:url('../img/backgroundImage6.jpg')}
-#slide-6 .hsContent {
-    margin-left: -500px;
-}
-#slide-6 h2 {
-    line-height: 1;
-    top: 40%;
-}
-#slide-6 .connect {
-    font-size: 100px;
-    font-weight: 500; 
-}
-
-/*footer*/
-#footer .footerDiv {
-    width: 100%;
-    height: 300px;
-    background-color: rgba(73, 101, 146, 1);
-} 
 
 
 /* ==========================================================================

@@ -64,7 +64,11 @@
 
 
 /* Slide 4 */
-#slide-4 .bcg {background-image:url('../img/backgroundImage4.jpg')}
+#slide-4 .bcg {
+    position: relative;
+    z-index: 0;
+    background-image:url('../img/backgroundImage4.jpg')
+}
 #slide-4 .hsContent {
     margin-left: -500px;
     top: auto;
@@ -86,6 +90,18 @@
     font-size: 100px;
     font-weight: 500;    
 }
+#slide-4 .rightContainer {    
+    float: right;
+    position: relative;
+    z-index: 1;
+
+    width: 30%;
+    height: 100%;
+}
+#slide-4 .firstIphoneImage {
+    height: 85%;
+    padding-top: 15%;    
+}
 
 /* Slide 5 */
 #slide-5 .bcg {background-image:url('../img/backgroundImage5.jpg')}
@@ -103,6 +119,18 @@
     font-size: 100px;
     font-weight: 500; 
 }
+#slide-5 .rightContainer {    
+    float: right;
+    position: relative;
+    z-index: 1;
+
+    width: 30%;
+    height: 100%;
+}
+#slide-5 .secondIphoneImage {
+    height: 80%;    
+    padding-top: 15%;    
+}
 
 /* Slide 6 */
 #slide-6 .bcg {background-image:url('../img/backgroundImage6.jpg')}
@@ -111,11 +139,24 @@
 }
 #slide-6 h2 {
     line-height: 1;
+    position: fixed;
     top: 40%;
 }
 #slide-6 .connect {
     font-size: 100px;
     font-weight: 500; 
+}
+#slide-6 .rightContainer {    
+    float: right;
+    position: relative;
+    z-index: 1;
+
+    width: 30%;
+    height: 100%;
+}
+#slide-6 .thirdIphoneImage {
+    height: 80%;    
+    padding-top: 15%;    
 }
 
 /*Terms*/
